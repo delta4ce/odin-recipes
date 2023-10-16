@@ -5,24 +5,42 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Odin Recipes</title>
 
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+
 	<style type="text/css">
 		body {
 			background-image: url('./images/konoha.jpg');
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-size: cover;
-
-			color: #fff;
 		}
 	</style>
 </head>
 
 <body>
-	<h1>Famous anime food recepies</h1>
-	<ul>
-		<li><a href="./recipes/ramen.html">Ramen</a></li>
-		<li><a href="./recipes/miso.html">Miso Soup</a></li>
-		<li><a href="./recipes/onigiri.html">Onigiri</a></li>
-	</ul>
+	<h1 class="hptitle">Famous anime food recepies</h1>
+	<div class="cards">
+		<a href="./recipes/ramen.html">
+			<div class="card">
+				<img src="./images/ramen.jpg">
+				<h2>Ramen</h2>
+				<p>Ramen is a popular and flavorful Japanese noodle soup dish.</p>
+			</div>
+		</a>
+		<a href="./recipes/miso.html">
+			<div class="card">
+				<img src="./images/miso.jpg">
+				<h2>Miso Soup</h2>
+				<p>Miso soup is a traditional Japanese soup known for its savory and umami-rich flavors.</p>
+			</div>
+		</a>
+		<a href="./recipes/onigiri.html">
+			<div class="card">
+				<img src="./images/onigiri.jpg">
+				<h2>Onigiri</h2>
+				<p> Onigiri consists of cooked rice that is shaped into a compact, often triangular or cylindrical form and is typically wrapped in a sheet of nori.</p>
+			</div>
+		</a>
+	</div>
 </body>
 </html>
